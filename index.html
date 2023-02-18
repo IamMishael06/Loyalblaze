@@ -38,10 +38,18 @@
             <div><p>into <span>Loyal fans</span></p></div> 
             <p class="para">Get ready to revolutionize the way you interact with  your customers and drive sales with <br> Loyalbaze. Join the waiting list now to be among the first to experience the future of <br> customer loyalty.</p>
             <img src="/IMAGES/Star 2.png" alt="" class="star-two">
+            <img src="/IMAGES/Star 2.png" alt="" class="star-five">
+            <img src="/IMAGES/Star 2.png" alt="" class="star-six">
+            <img src="/IMAGES/Star 2.png" alt="" class="star-seven">
+
+
+
+            
 
         </div>
 
         </div>
+        <div class="third-animation"></div>
         
 
         <div class="form">
@@ -79,15 +87,22 @@
         <div class="row">
           <div class="col col-lg-6">
             <div class="about">
-              <h1>Priority Access</h1>
-              <center>              <img src="/IMAGES/Line 6.png" alt="" class="line">
-              </center>
-              <p>
-                Get ready to revolutionize the way you interact with your customers and drive sales with Loyalbaze. Skip the waitlist and get exclusive priority access to LoyalBaze. Limited slots available. Please tell us a bit about your business and needs and of our consultants will be in touch Immediately!
-              </p>
+              <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+     <h1>Priority Access</h1>
+     <center>              <img src="/IMAGES/Line 6.png" alt="" class="line">
+     </center>
+     <p>
+       Get ready to revolutionize the way you interact with your customers and drive sales with Loyalbaze. Skip the waitlist and get exclusive priority access to LoyalBaze. Limited slots available. Please tell us a bit about your business and needs and of our consultants will be in touch Immediately!
+     </p>
+               </div>
+            
             </div>
           </div>
           <div class="col col-lg-6">
+            <img src="/IMAGES/Highlight 2.png" class="box-one" alt="">
+            <img src="/IMAGES/Highlight 2.png" class="box-two" alt="">
             <form action="#" class="register">
               <h2>Book a Consultant with us</h2>
               <input type="text" placeholder="Enter your full name"><br>
@@ -342,9 +357,9 @@
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
             <textarea id="text" cols="54" rows="8" placeholder="Drop a message..."></textarea>
-            <div class="register-button">
-              <button class="btn btn-lg"><a href="#">Send Request</a></button>
-            </div>
+              <div class="register-button">
+                <button class="btn btn-lg"  type="button">send request</button>
+              </div> 
 
 
             </form>
@@ -365,23 +380,23 @@
           
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+      let popup = document.getElementById("popup");
+      function openpopup(){
+        popup.classList.add("open-popup")
+
+      }
+      function closepopup(){
+        popup.classList.remove ("open-popup")
+
+      } 
     </script>
 
 </body>
