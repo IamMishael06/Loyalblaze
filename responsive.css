@@ -1,0 +1,167 @@
+@media screen and (max-width :600px){
+    .title-button{
+        width: 150px;
+    }
+    .title-button a{
+        font-size: 12px;
+        text-align: center;
+       
+       
+    }
+    .title-button button{
+        height: 50px;
+    }
+    .first-animation{
+        position: absolute;
+        position: fixed;
+        top: 32%;
+        left: 82%;
+        width: 70px;
+        height: 70px;
+        z-index: -2;
+    }
+    .second-animation{
+        width: 110px;
+        height: 110px;
+        z-index: -1;
+        top: 210%;
+        left: -5%;
+    }
+    .second-animation::before{
+        top: 0;
+        left: 0;
+        width: 110px;
+        height: 110px;
+        z-index: -1;
+    }
+    .second-animation::after{
+        top: 0;
+        left: 0;
+        width: 110px;
+        height: 110px;
+        z-index: -1;
+    }
+    .heading{
+        font-size: 35px;
+        
+    }
+    .head-text{
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading .para{
+        max-width: 400px;
+        font-size: 16px;
+        text-align: justify;
+        margin: 0px auto;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 10px;
+    }
+    .form input{
+        width: 350px;
+        font-family: 'poppins';
+        color: #FFFFFF;
+        margin-top: 5%;
+        padding-left:60px;
+    }
+    .form-icon{
+        position: absolute;
+        top: 66%;
+        left: 20%;
+
+    }
+    .form-icons{
+        position: absolute;
+        left: 20%;
+        top: 80.5%;
+    }
+    .form input::placeholder{
+        padding-right: 150px;
+    }
+    .arrow-one{
+        position: absolute;
+        left: 80%;
+        top: 70%;
+        width: 35px;
+        height: 35px;
+        z-index: -3;
+    }
+    .third-animation{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top:900px;
+        left: 80%;
+    }
+    .third-animation::before{
+        width: 250px;
+        height: 250px;
+    }
+    .third-animation::after{
+        width: 250px;
+        height: 250px;
+    }
+    .about h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    .about p{
+        text-align: justify;
+        font-weight: 400;
+    }
+    .register{
+        max-width: 480px;
+        margin: 120px 10px 0px 10px;
+    }
+    .register input{
+        width: 420px;
+
+    }
+    .register select{
+        width: 420px;
+    }
+    .register option{
+        width: 420px;
+    }
+    .register textarea{
+        width: 420px;
+    }
+    .register-button{
+        width: 400px;
+        font-family: 'poppins';
+        color: #FFFFFF !important;
+        background: #5404FF;
+        border-radius: 5px;
+        align-items: center;
+        margin: 5px 12% 0px 12%;
+
+    }
+    .register-button button{
+        color: #ffffffe4 !important;
+        font-size: 15px;
+    }
+    .register h2{
+        text-align: center;
+    }
+    #footer p{
+        font-size: 10px;
+    }
+    #footer .house{
+        visibility: hidden;
+    }
+    #footer .phone{
+        position: absolute;
+        right:28%;
+        top: 339.3%;
+        font-size: 10px;
+    }
+
+}
